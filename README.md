@@ -1,5 +1,5 @@
 
-# Convolutional Auto-Encoders
+# Convolutional Autoencoders - Lab
 
 ## Introduction
 
@@ -8,8 +8,10 @@ Earlier we saw the application of simple and deep fully connected auto encoders 
 *Notes: Refer back to section on Convolutional Networks for details of different layers and their specific functions*
 
 ## Objectives
+
+You will be able to:
 - Build a convolutional autoencoder in Keras
-- Compare the output of convolutional vs. simple and deep autoencoders in terms of predictive performance. 
+- Compare the output of convolutional vs. simple and deep autoencoders in terms of predictive performance
 
 
 ## Building a CAE
@@ -18,7 +20,7 @@ For image inputs, convolutional neural networks (convnets) as encoders and decod
 
 We will build a CAE in a stack of Conv2D and MaxPooling2D layers 
 - Encoder will use max pooling for spatial down-sampling)
-- The decoder will consist in a stack of Conv2D and UpSampling2D layers.
+- The decoder will consist in a stack of Conv2D and UpSampling2D layers
 
 ### Implement following Conv-autoencoder network in Keras 
 
