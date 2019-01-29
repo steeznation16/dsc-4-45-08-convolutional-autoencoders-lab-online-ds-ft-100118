@@ -1,5 +1,5 @@
 
-# Convolutional Auto-Encoders
+# Convolutional Autoencoders - Lab
 
 ## Introduction
 
@@ -8,8 +8,11 @@ Earlier we saw the application of simple and deep fully connected auto encoders 
 *Notes: Refer back to section on Convolutional Networks for details of different layers and their specific functions*
 
 ## Objectives
+
+You will be able to:
+
 - Build a convolutional autoencoder in Keras
-- Compare the output of convolutional vs. simple and deep autoencoders in terms of predictive performance. 
+- Compare the output of convolutional vs. simple and deep autoencoders in terms of predictive performance
 
 
 ## Building a CAE
